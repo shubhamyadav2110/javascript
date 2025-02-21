@@ -26,3 +26,5 @@ let isLogedIn = false
 console.log(typeof(isLogedIn));// boolean type
 console.log(typeof(null));// object type
 console.log(typeof(undefined));// undefined type
+
+console.log(StringIndexOf(name,'s',0))
