@@ -37,9 +37,13 @@ const myFuntion = function()//funtion decleration
 myFuntion()
 
 //stack(primitive) , heap(non-primitive)
- let fullname = "शुभम";//stack mermory
+//stack give the copy of variable and heap give the reference of any variable
+ 
 
- let anotherFullName = fullName
-
-
- console.log(anotherFullName);
+ let userOne = {
+    name : "shubham",
+    upi : "shubbhamyadav@xml"
+ }
+ let userTwo = userOne
+ console.log(userOne);
+ console.log(userTwo);
