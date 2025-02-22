@@ -45,7 +45,7 @@ console.log(1+"1");//11
 console.log("1"+"2" + 2);//122
 console.log(1 + 2 + (4 * 5 )+ "3");//33
 */
-console.log(+true);//1
+/*console.log(+true);//1
 console.log(+"");
 
 let num1,num2,num3;
@@ -56,5 +56,14 @@ gameCounter++;
 console.log(gameCounter);
 ++gameCounter;
 console.log(gameCounter);
+*/
 
+console.log( null > 0);//false here null are converted into 0 for coparision with another 0
+console.log(null == 0);//false
+console.log(null >= 0);//true 
+
+console.log(undefined > 0);//false
+
+console.log("2" === 2);// false === do the comparision and also check the data type of both value
+console.log(2 === 2);//true
 
