@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body{
+            color: aliceblue;
+            background-color: #2c3e50;
+        }
+    </style>
+    <title>DOM</title>
+</head>
+<body>
+    <div class="parent">
+        <!-- this is commet -->
+        <div class="child1">Monday</div>
+        <div class="child2">Tuesday</div>
+        <div class="child3">Wednesday</div>
+        <div class="child4">Thurday</div>        
+    </div>
+</body>
+<script>
+    const parent = document.querySelector(`.parent`)
+    // console.log(parent);
+    // console.log(parent.children[1].innerHTML);
+
+    // for(let i = 0;i < parent.children.length; i++){
+    //     console.log(parent.children[i].innerHTML);
+    // }
+    // parent.children[2].style.color = "orange"
+    // console.log(parent.firstElementChild);
+    // console.log(parent.lastElementChild);
+
+    const dayOne = document.querySelector(`.child1`)
+    console.log(dayOne); 
+    console.log(dayOne.parentElement);
+    console.log(dayOne.nextElementSibling);
+
+    console.log("noddes",parent.childNodes);
+    
+    
+     
+</script>
+</html>

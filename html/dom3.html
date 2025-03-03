@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body{
+            color: aliceblue;
+            background-color: #2c3e50;
+        }
+    </style>
+
+</head>
+<body>
+    
+</body>
+<script>
+    const div = document.createElement(`h1`)
+    console.log(div);
+    div.className = "main"
+    div.id = Math.round(Math.random() *10)
+    div.setAttribute(`title`,"generat a title")
+    div.style.backgroundColor = "orange"
+    div.style.padding = "10px"
+    div.innerText = "shubham yadav"
+    const addText = document.createTextNode("yadav ji")
+    div.appendChild(addText)
+    document.body.appendChild(div)
+</script>
+    
+
+</html>
